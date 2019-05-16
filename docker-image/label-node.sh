@@ -8,6 +8,6 @@ echo "Running on node : $NODE"
 echo "Label name : $LABELNAME"
 echo "Label value : $LABELVALUE"
 k label nodes --overwrite=true $NODE $LABELNAME=$LABELVALUE
-#sleep infinity
 echo "now resting..."
-while :; do sleep 2073600; done
+#while :; do sleep 2073600; done
+tail -f /dev/null

@@ -14,4 +14,4 @@ ADD label-node.sh .
 
 RUN chmod 755 label-node.sh
 
-CMD ["/bin/sh", "-c" , "sleep 60m"]
+CMD ["tail", "-f", "/dev/null"]
