@@ -60,7 +60,7 @@ spec:
       serviceAccountName: pks-labeling-service-account
       containers:
       - name: labeling-pod
-        image: yanivno/pks-labeling:1.4 
+        image: yanivno/pks-labeling:1.5 
         resources:
           requests:
             memory: "4Mi"
