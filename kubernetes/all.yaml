@@ -63,11 +63,11 @@ spec:
         image: yanivno/pks-labeling:1.4 
         resources:
           requests:
-            memory: "64Mi"
+            memory: "4Mi"
             cpu: "100m"
           limits:
-            memory: "128Mi"
-            cpu: "500m"
+            memory: "32Mi"
+            cpu: "100m"
         env:
         - name: LABELNAME
           value: "app"
